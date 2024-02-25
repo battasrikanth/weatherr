@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in your city</title>
+    <link rel="icon" href="images/clear.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="images/search.png" alt="search-button"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+            <div class="loc">
+                <img class="location" src="images/location.png">
+                <h2 class="city"></h2>
+            </div>
+            <img src="images/drizzle.png" class="weather-icon">
+            <br>
+            <h1 class="temp"></h1>
+            <div class="temmp">
+                <h4>feels like</h4>
+                <h4 class="feelslike"></h4>
+           </div>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                        <img src="images/wind.png">
+                    <div>
+                            <p class="wind"></p>
+                            <p>Wind speed</p>
+                    </div>
+                </div>
+                <div class="col">
+                        <img src="images/pressure.svg">
+                    <div>
+                            <p class="pressure"></p>
+                            <p>Pressure</p>
+                    </div>
+                </div>
+                <div class="col">
+                        <img src="images/visibility.png">
+                    <div>
+                            <p class="visibility"></p>
+                            <p>Visibility</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
